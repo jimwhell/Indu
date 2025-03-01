@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# Firebase service account key (Highly sensitive!)
+serviceAccountKey.json
+
+# Logs
+logs/
+*.log
+npm-debug.log
+debug.log
+error.log
+server.log
+tmp.log
+*.out
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Build files
+dist/
+coverage/
+
+# Sessions & cache
+*.cache
+*.pid
+*.seed
+*.gz
+.pnp
+.pnp.js
